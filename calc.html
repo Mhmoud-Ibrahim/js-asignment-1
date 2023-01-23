@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clacmahmoud</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/calc.css">
+</head>
+<body>
+
+ <section>
+<div class="container vh-100 m-auto   text-center p-2  d-flex justify-content-around align-content-center ">
+    <div class="calc-body bg-secondary shadow-lg rounded-3  mt-5  ">
+        <p class=" m-auto w-100  fs-4 text-light" >simple calulator</p>
+        <input type="text" id="result" name="screen" placeholder="0">
+        <div class="conatain mt-3">
+            <button class=" btn-outline-danger s_btn"onclick="calcNum('<')"><</button>
+            <button class=" btn-outline-danger s_btn"onclick="calcNum('>')">></button>
+            <button class=" btn-outline-danger s_btn" onclick="reset()">C</button>
+            <button class=" btn-outline-danger s_btn"onclick="calcNum('+')">+</button>
+        </div>
+        <div class="conatain mt-3">
+            <button class=" btn-outline-danger s_btn" onclick="calcNum(7)">7</button>
+            <button class=" btn-outline-danger s_btn"onclick="calcNum(8)">8</button>
+            <button class=" btn-outline-danger s_btn"onclick="calcNum(9)">9</button>
+            <button class=" btn-outline-danger s_btn"onclick="calcNum('-')">-</button>
+        </div>
+        <div class="conatain mt-3">
+            <button class=" btn-outline-danger s_btn"onclick="calcNum(4)">4</button>
+            <button class=" btn-outline-danger s_btn"onclick="calcNum(5)">5</button>
+            <button class=" btn-outline-danger s_btn"onclick="calcNum(6)">6</button>
+            <button class=" btn-outline-danger s_btn"onclick="calcNum('*')">X</button>
+        </div>
+        <div class="conatain  mt-3">
+            <button class=" btn-outline-danger s_btn"onclick="calcNum(1)">1</button>
+            <button class=" btn-outline-danger s_btn"onclick="calcNum(2)">2</button>
+            <button class=" btn-outline-danger s_btn"onclick="calcNum(3)">3</button>
+            <button class=" btn-outline-danger s_btn"onclick="calcNum('/')">/</button>
+        </div>
+        <div class="conatain mt-3">
+            <button class=" btn-outline-danger s_btn"onclick="calcNum('00')">00</button>
+            <button class=" btn-outline-danger s_btn"onclick="calcNum(0)">0</button>
+            <button class=" btn-outline-danger s_btn"onclick="calcNum('.')">.</button>
+            <button class=" btn-outline-danger s_btn"onclick="operation()">=</button>
+        </div>
+    
+
+
+    </div>
+
+</div>
+
+ </section>
+
+    <script src="js/bootstrap.bundle.js" ></script>
+    <script src="js/calc.js" ></script>
+
+</body>
+</html>

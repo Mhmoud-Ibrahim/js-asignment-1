@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #ddd !important;
+}
+.calc-body{
+    width: 350px;
+    height:420px;
+}
+input{
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+    color: black !important;
+    font-weight: 600;
+    font-family: 'Italic'sans-serif;
+}
+button{
+    width:20% !important;
+    height: 18% !important;
+    padding:6px;
+    border-radius: 10px;
+    font-size:20px;
+}
+.equal{
+    height: 100% !important;
+}
